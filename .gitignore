@@ -1,0 +1,35 @@
+# Personal assignment report
+*Assignment_3*Samira_Nazari.pdf
+
+# Operating-system and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Python files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+
+# Downloaded data and generated outputs
+data/
+MNIST/
+images/*.png
+!images/diffusion_model.png
+!images/*.jpeg
+
+# Models and checkpoints
+*.pt
+*.pth
+*.pkl
+*.ckpt
+
+# Old and temporary implementations
+__q2_ddpm.py
+q3_cfg_diffusion_old.py
+q3_trainer_cfg_old.py
